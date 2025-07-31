@@ -25,7 +25,13 @@
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="assets/Amar_Mukhthar_Data_Scientist.pdf">Resume</a></li>
+                   
+                <li><a href="assets/Amar_Mukhthar_Data_Scientist.pdf" download 
+                    onclick="gtag('event', 'resume_download', {
+                        'event_category': 'engagement',
+                        'event_label': 'Navbar Resume Click'
+                    });">Resume</a></li>
+                   
             </ul>
         </nav>
     </header>
